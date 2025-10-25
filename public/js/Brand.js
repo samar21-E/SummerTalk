@@ -43,7 +43,7 @@ let BRAND = {
         title: 'SummerTalk, Free Video Calls, Messaging and Screen Sharing',
         icon: '../images/logo.svg',
         appleTouchIcon: '../images/logo.svg',
-        newRoomTitle: 'Pick A SHOW TALK',
+        newRoomTitle: 'Pick A Room TALK',
         newRoomDescription:
             "Each room has its disposable URL. Just pick a room name and share your custom URL. It's that easy.",
     },

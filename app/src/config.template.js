@@ -892,8 +892,8 @@ module.exports = {
                 description:
                     process.env.APP_DESCRIPTION ||
                     'JOIN Summer TALK and enjoy .',
-                joinDescription: process.env.JOIN_DESCRIPTION || 'Pick a Show Name<br /?',
-                joinButtonLabel: process.env.JOIN_BUTTON_LABEL || 'JOIN SHOW',
+                joinDescription: process.env.JOIN_DESCRIPTION || 'Pick a Room Name<br /?',
+                joinButtonLabel: process.env.JOIN_BUTTON_LABEL || 'JOIN ROOM',
                 joinLastLabel: process.env.JOIN_LAST_LABEL || 'Last Talk:',
             },
 
