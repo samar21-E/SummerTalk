@@ -1,0 +1,13 @@
+services:
+  summertalksfu:
+    build: .
+    container_name: Summertalksfu
+    hostname: Summertalksfu
+    restart: unless-stopped
+    volumes:
+      - ./app/src/config.js:/src/app/src/config.js:ro
+      - ./.env:/src/.env:ro
+    ports:
+      - '3010:3010/tcp'
+      - '40000-40100:40000-40100/tcp'
+      - '40000-40100:40000-40100/udp'
